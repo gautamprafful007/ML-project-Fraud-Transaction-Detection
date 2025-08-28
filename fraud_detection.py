@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 
-model=joblib.load('pipeline.pkl')
+model=joblib.load('pipeline.joblib')
 
 st.title("Fraud Detection Prediction APP")
 
